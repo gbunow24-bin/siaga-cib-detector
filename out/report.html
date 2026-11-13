@@ -1,0 +1,155 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8">
+    <title>Laporan SIAGA</title>
+    <style>
+      body{font-family:system-ui,Segoe UI,sans-serif;margin:24px;background:#0f1419;color:#e6edf3}
+      h1{color:#58a6ff} h2{color:#79c0ff;margin-top:28px}
+      table{border-collapse:collapse;width:100%;margin-top:8px;font-size:14px}
+      th,td{border:1px solid #30363d;padding:8px;text-align:left;vertical-align:top}
+      th{background:#161b22}
+      .metrics span{display:inline-block;margin-right:18px;background:#161b22;padding:6px 10px;border-radius:6px}
+      .sub{color:#8b949e}
+    </style></head><body>
+    <h1>SIAGA — Laporan Deteksi Koordinasi Siber-Sosial</h1>
+    <p class="sub">Sistem Intelijen Analisis Gerakan siber-sosial Anomali · laporan otomatis</p>
+    <div class="metrics">
+          <span>Precision: <b>1.0</b></span>
+          <span>Recall: <b>1.0</b></span>
+          <span>F1: <b>1.0</b></span>
+          <span>TP 24 · FP 0 · FN 0</span>
+        </div>
+    <h2>Klaster Terkoordinasi Terdeteksi (3)</h2>
+    <table><tr><th>ID</th><th>Skor</th><th>Akun</th><th>Kemiripan Isi</th>
+    <th>Sinkronisasi</th><th>Hashtag Dominan</th><th>Narasi Inti</th></tr><tr>
+          <td>#2</td>
+          <td><b>0.62</b></td>
+          <td>6</td>
+          <td>0.70</td>
+          <td>0.34</td>
+          <td>#saringbelumsharing, #stophoaks, #motivasi, #olahraga, #kuliner</td>
+          <td>Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #saringbelumsharing</td>
+        </tr><tr>
+          <td>#0</td>
+          <td><b>0.60</b></td>
+          <td>10</td>
+          <td>0.76</td>
+          <td>0.16</td>
+          <td>#majubangsa, #dukungkebijakan, #timnas, #cuaca, #motivasi</td>
+          <td>Saya dukung penuh kebijakan baru demi masa depan bangsa lebih baik #majubangsa</td>
+        </tr><tr>
+          <td>#1</td>
+          <td><b>0.46</b></td>
+          <td>8</td>
+          <td>0.52</td>
+          <td>0.21</td>
+          <td>#buanganggaran, #programgagal, #belajar, #olahraga, #teknologi</td>
+          <td>Faktanya program ini gagal total, anggaran negara terbuang percuma #buanganggaran</td>
+        </tr></table>
+    <h2>Peringatan Dini Narasi Menanjak (15)</h2>
+    <table><tr><th>Hashtag</th><th>Risiko</th><th>Porsi CIB</th><th>Kecepatan</th>
+    <th>Post</th><th>Akun</th></tr><tr>
+          <td>#majubangsa</td>
+          <td style="color:#c0392b"><b>0.94</b></td>
+          <td>1.00</td>
+          <td>1.00</td>
+          <td>34</td>
+          <td>10</td>
+        </tr><tr>
+          <td>#dukungkebijakan</td>
+          <td style="color:#c0392b"><b>0.93</b></td>
+          <td>1.00</td>
+          <td>0.99</td>
+          <td>31</td>
+          <td>10</td>
+        </tr><tr>
+          <td>#buanganggaran</td>
+          <td style="color:#c0392b"><b>0.91</b></td>
+          <td>1.00</td>
+          <td>1.00</td>
+          <td>16</td>
+          <td>7</td>
+        </tr><tr>
+          <td>#saringbelumsharing</td>
+          <td style="color:#c0392b"><b>0.90</b></td>
+          <td>1.00</td>
+          <td>1.00</td>
+          <td>12</td>
+          <td>6</td>
+        </tr><tr>
+          <td>#programgagal</td>
+          <td style="color:#c0392b"><b>0.89</b></td>
+          <td>1.00</td>
+          <td>1.00</td>
+          <td>15</td>
+          <td>8</td>
+        </tr><tr>
+          <td>#stophoaks</td>
+          <td style="color:#c0392b"><b>0.88</b></td>
+          <td>1.00</td>
+          <td>0.99</td>
+          <td>10</td>
+          <td>6</td>
+        </tr><tr>
+          <td>#motivasi</td>
+          <td style="color:#7f8c8d"><b>0.38</b></td>
+          <td>0.12</td>
+          <td>0.82</td>
+          <td>49</td>
+          <td>41</td>
+        </tr><tr>
+          <td>#teknologi</td>
+          <td style="color:#7f8c8d"><b>0.36</b></td>
+          <td>0.04</td>
+          <td>0.97</td>
+          <td>28</td>
+          <td>27</td>
+        </tr><tr>
+          <td>#weekend</td>
+          <td style="color:#7f8c8d"><b>0.35</b></td>
+          <td>0.06</td>
+          <td>0.83</td>
+          <td>33</td>
+          <td>28</td>
+        </tr><tr>
+          <td>#traveling</td>
+          <td style="color:#7f8c8d"><b>0.34</b></td>
+          <td>0.04</td>
+          <td>0.85</td>
+          <td>45</td>
+          <td>40</td>
+        </tr><tr>
+          <td>#belajar</td>
+          <td style="color:#7f8c8d"><b>0.33</b></td>
+          <td>0.04</td>
+          <td>0.81</td>
+          <td>51</td>
+          <td>44</td>
+        </tr><tr>
+          <td>#olahraga</td>
+          <td style="color:#7f8c8d"><b>0.28</b></td>
+          <td>0.07</td>
+          <td>0.63</td>
+          <td>53</td>
+          <td>45</td>
+        </tr><tr>
+          <td>#cuaca</td>
+          <td style="color:#7f8c8d"><b>0.28</b></td>
+          <td>0.08</td>
+          <td>0.65</td>
+          <td>49</td>
+          <td>45</td>
+        </tr><tr>
+          <td>#kuliner</td>
+          <td style="color:#7f8c8d"><b>0.28</b></td>
+          <td>0.04</td>
+          <td>0.67</td>
+          <td>49</td>
+          <td>42</td>
+        </tr><tr>
+          <td>#timnas</td>
+          <td style="color:#7f8c8d"><b>0.18</b></td>
+          <td>0.10</td>
+          <td>0.33</td>
+          <td>57</td>
+          <td>52</td>
+        </tr></table>
+    </body></html>

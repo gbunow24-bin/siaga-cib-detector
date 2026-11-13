@@ -1,0 +1,21 @@
+# SIAGA — dependencies
+# Inti pipeline (WAJIB, sudah cukup untuk demo & penjurian):
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+networkx>=3.0
+
+# Dashboard interaktif (OPSIONAL — kalau tidak diinstal, pakai laporan HTML statis):
+streamlit>=1.30
+plotly>=5.18
+
+# REST API untuk integrasi pusat komando (OPSIONAL — hanya bila pakai api.py):
+fastapi>=0.110
+uvicorn>=0.29
+
+# Pengambilan data nyata YouTube (OPSIONAL — hanya bila pakai collect_youtube.py;
+# certifi memperbaiki verifikasi sertifikat SSL di macOS):
+certifi>=2024.2.2
+
+# Peningkatan akurasi semantik Bahasa Indonesia (OPSIONAL, Minggu 3-4):
+# sentence-transformers>=2.2

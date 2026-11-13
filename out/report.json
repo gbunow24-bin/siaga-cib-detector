@@ -1,0 +1,334 @@
+{
+  "summary": {
+    "n_posts": 1618,
+    "n_accounts": 144,
+    "n_clusters": 3,
+    "n_flagged_accounts": 24
+  },
+  "metrics": {
+    "true_positive": 24,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_negative": 120,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "clusters": [
+    {
+      "cluster_id": 2,
+      "accounts": [
+        "kampanye_C_0000",
+        "kampanye_C_0001",
+        "kampanye_C_0002",
+        "kampanye_C_0003",
+        "kampanye_C_0004",
+        "kampanye_C_0005"
+      ],
+      "coordination_score": 0.617,
+      "size": 6,
+      "synchrony": 0.335,
+      "content_similarity": 0.696,
+      "top_hashtags": [
+        "saringbelumsharing",
+        "stophoaks",
+        "motivasi",
+        "olahraga",
+        "kuliner"
+      ],
+      "top_narratives": [
+        "Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #saringbelumsharing",
+        "Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #stophoaks",
+        "Berita ini hoaks ya, jangan mudah percaya, mari sebarkan yang benar #stophoaks"
+      ],
+      "evidence": {
+        "cohesion": 0.933,
+        "n_posts": 22,
+        "peak_bucket_share": 0.455
+      }
+    },
+    {
+      "cluster_id": 0,
+      "accounts": [
+        "kampanye_B_0000",
+        "kampanye_B_0001",
+        "kampanye_B_0002",
+        "kampanye_B_0003",
+        "kampanye_B_0004",
+        "kampanye_B_0005",
+        "kampanye_B_0006",
+        "kampanye_B_0007",
+        "kampanye_B_0008",
+        "kampanye_B_0009"
+      ],
+      "coordination_score": 0.599,
+      "size": 10,
+      "synchrony": 0.163,
+      "content_similarity": 0.761,
+      "top_hashtags": [
+        "majubangsa",
+        "dukungkebijakan",
+        "timnas",
+        "cuaca",
+        "motivasi"
+      ],
+      "top_narratives": [
+        "Saya dukung penuh kebijakan baru demi masa depan bangsa lebih baik #majubangsa",
+        "Dukung penuh kebijakan baru ini demi masa depan bangsa lebih baik #majubangsa",
+        "Dukung penuh kebijakan baru ini demi masa depan bangsa lebih baik #dukungkebijakan"
+      ],
+      "evidence": {
+        "cohesion": 1.0,
+        "n_posts": 65,
+        "peak_bucket_share": 0.215
+      }
+    },
+    {
+      "cluster_id": 1,
+      "accounts": [
+        "kampanye_A_0000",
+        "kampanye_A_0001",
+        "kampanye_A_0002",
+        "kampanye_A_0003",
+        "kampanye_A_0004",
+        "kampanye_A_0005",
+        "kampanye_A_0006",
+        "kampanye_A_0007"
+      ],
+      "coordination_score": 0.463,
+      "size": 8,
+      "synchrony": 0.207,
+      "content_similarity": 0.519,
+      "top_hashtags": [
+        "buanganggaran",
+        "programgagal",
+        "belajar",
+        "olahraga",
+        "teknologi"
+      ],
+      "top_narratives": [
+        "Faktanya program ini gagal total, anggaran negara terbuang percuma #buanganggaran",
+        "Program ini gagal total dan hanya membuang anggaran negara #programgagal",
+        "Program ini benar benar gagal total, buang buang anggaran negara #buanganggaran"
+      ],
+      "evidence": {
+        "cohesion": 0.786,
+        "n_posts": 31,
+        "peak_bucket_share": 0.29
+      }
+    }
+  ],
+  "watchlist": [],
+  "alerts": [
+    {
+      "hashtag": "majubangsa",
+      "risk_score": 0.941,
+      "velocity": 1.0,
+      "cib_share": 1.0,
+      "n_posts": 34,
+      "n_accounts": 10,
+      "first_seen": "2026-10-18 14:10:02",
+      "sample_texts": [
+        "Dukung terus kebijakan baru ini, masa depan bangsa jadi lebih baik #majubangsa",
+        "Mari dukung kebijakan baru ini untuk masa depan bangsa yang baik #majubangsa",
+        "Dukung penuh kebijakan baru ini demi masa depan bangsa lebih baik #majubangsa"
+      ]
+    },
+    {
+      "hashtag": "dukungkebijakan",
+      "risk_score": 0.934,
+      "velocity": 0.995,
+      "cib_share": 1.0,
+      "n_posts": 31,
+      "n_accounts": 10,
+      "first_seen": "2026-10-18 14:10:03",
+      "sample_texts": [
+        "Dukung terus kebijakan baru ini, masa depan bangsa jadi lebih baik #dukungkebijakan",
+        "Mari dukung kebijakan baru ini untuk masa depan bangsa yang baik #dukungkebijakan #timnas",
+        "Dukung penuh kebijakan baru ini demi masa depan bangsa lebih baik #dukungkebijakan #cuaca"
+      ]
+    },
+    {
+      "hashtag": "buanganggaran",
+      "risk_score": 0.912,
+      "velocity": 0.999,
+      "cib_share": 1.0,
+      "n_posts": 16,
+      "n_accounts": 7,
+      "first_seen": "2026-10-18 20:43:09",
+      "sample_texts": [
+        "Program ini benar benar gagal total, buang buang anggaran negara #buanganggaran",
+        "Jelas program ini gagal total dan membuang anggaran negara sia-sia #buanganggaran",
+        "Program ini gagal total dan hanya membuang anggaran negara #buanganggaran"
+      ]
+    },
+    {
+      "hashtag": "saringbelumsharing",
+      "risk_score": 0.9,
+      "velocity": 1.0,
+      "cib_share": 1.0,
+      "n_posts": 12,
+      "n_accounts": 6,
+      "first_seen": "2026-10-19 00:19:00",
+      "sample_texts": [
+        "Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #saringbelumsharing",
+        "Awas berita ini hoaks, jangan mudah percaya, sebarkan yang benar #saringbelumsharing #olahraga",
+        "Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #saringbelumsharing #kuliner"
+      ]
+    },
+    {
+      "hashtag": "programgagal",
+      "risk_score": 0.893,
+      "velocity": 1.0,
+      "cib_share": 1.0,
+      "n_posts": 15,
+      "n_accounts": 8,
+      "first_seen": "2026-10-18 20:45:36",
+      "sample_texts": [
+        "Program ini benar benar gagal total, buang buang anggaran negara #programgagal #teknologi",
+        "Program ini benar benar gagal total, buang buang anggaran negara #programgagal #jakarta",
+        "Faktanya program ini gagal total, anggaran negara terbuang percuma #programgagal"
+      ]
+    },
+    {
+      "hashtag": "stophoaks",
+      "risk_score": 0.878,
+      "velocity": 0.995,
+      "cib_share": 1.0,
+      "n_posts": 10,
+      "n_accounts": 6,
+      "first_seen": "2026-10-19 00:18:30",
+      "sample_texts": [
+        "Hati hati berita ini hoaks, jangan percaya, sebar yang benar saja #stophoaks",
+        "Awas berita ini hoaks, jangan mudah percaya, sebarkan yang benar #stophoaks",
+        "Berita ini hoaks ya, jangan mudah percaya, mari sebarkan yang benar #stophoaks"
+      ]
+    },
+    {
+      "hashtag": "motivasi",
+      "risk_score": 0.376,
+      "velocity": 0.824,
+      "cib_share": 0.122,
+      "n_posts": 49,
+      "n_accounts": 41,
+      "first_seen": "2026-10-18 08:50:00",
+      "sample_texts": [
+        "Selamat pagi semuanya, semoga harimu menyenangkan #motivasi",
+        "Lagi hemat-hemat nih akhir bulan #motivasi",
+        "Cuaca mendung terus, jangan lupa bawa payung ya #motivasi"
+      ]
+    },
+    {
+      "hashtag": "teknologi",
+      "risk_score": 0.363,
+      "velocity": 0.97,
+      "cib_share": 0.036,
+      "n_posts": 28,
+      "n_accounts": 27,
+      "first_seen": "2026-10-18 08:10:00",
+      "sample_texts": [
+        "Jalanan sepi banget hari ini tumben #teknologi",
+        "Macet parah di tol pagi ini, semoga lancar yang berangkat kerja #teknologi",
+        "Semangat buat yang lagi skripsi, pasti bisa #teknologi"
+      ]
+    },
+    {
+      "hashtag": "weekend",
+      "risk_score": 0.35,
+      "velocity": 0.834,
+      "cib_share": 0.061,
+      "n_posts": 33,
+      "n_accounts": 28,
+      "first_seen": "2026-10-18 08:00:00",
+      "sample_texts": [
+        "Lagi belajar coding Python, seru juga ternyata #weekend",
+        "Rekomendasi tempat makan enak di sekitar sini dong #weekend",
+        "Semangat buat yang lagi skripsi, pasti bisa #weekend"
+      ]
+    },
+    {
+      "hashtag": "traveling",
+      "risk_score": 0.341,
+      "velocity": 0.854,
+      "cib_share": 0.044,
+      "n_posts": 45,
+      "n_accounts": 40,
+      "first_seen": "2026-10-18 08:34:00",
+      "sample_texts": [
+        "Buku baru sudah sampai, siap dibaca minggu ini #traveling",
+        "Macet parah di tol pagi ini, semoga lancar yang berangkat kerja #traveling",
+        "Baru selesai nonton film bagus akhir pekan ini #traveling"
+      ]
+    },
+    {
+      "hashtag": "belajar",
+      "risk_score": 0.331,
+      "velocity": 0.815,
+      "cib_share": 0.039,
+      "n_posts": 51,
+      "n_accounts": 44,
+      "first_seen": "2026-10-18 08:46:00",
+      "sample_texts": [
+        "Selamat pagi semuanya, semoga harimu menyenangkan #belajar",
+        "Cuaca mendung terus, jangan lupa bawa payung ya #belajar",
+        "Harga cabai naik lagi di pasar dekat rumah #belajar"
+      ]
+    },
+    {
+      "hashtag": "olahraga",
+      "risk_score": 0.285,
+      "velocity": 0.631,
+      "cib_share": 0.075,
+      "n_posts": 53,
+      "n_accounts": 45,
+      "first_seen": "2026-10-18 08:11:00",
+      "sample_texts": [
+        "Lagi hemat-hemat nih akhir bulan #olahraga",
+        "Kopi pagi ini bikin mood jadi lebih baik #olahraga",
+        "Cuaca mendung terus, jangan lupa bawa payung ya #olahraga"
+      ]
+    },
+    {
+      "hashtag": "cuaca",
+      "risk_score": 0.281,
+      "velocity": 0.65,
+      "cib_share": 0.082,
+      "n_posts": 49,
+      "n_accounts": 45,
+      "first_seen": "2026-10-18 08:45:00",
+      "sample_texts": [
+        "Kopi pagi ini bikin mood jadi lebih baik #cuaca",
+        "Macet parah di tol pagi ini, semoga lancar yang berangkat kerja #cuaca",
+        "Lagi hemat-hemat nih akhir bulan #cuaca"
+      ]
+    },
+    {
+      "hashtag": "kuliner",
+      "risk_score": 0.28,
+      "velocity": 0.666,
+      "cib_share": 0.041,
+      "n_posts": 49,
+      "n_accounts": 42,
+      "first_seen": "2026-10-18 08:04:00",
+      "sample_texts": [
+        "Kopi pagi ini bikin mood jadi lebih baik #kuliner",
+        "Harga cabai naik lagi di pasar dekat rumah #kuliner",
+        "Rekomendasi tempat makan enak di sekitar sini dong #kuliner"
+      ]
+    },
+    {
+      "hashtag": "timnas",
+      "risk_score": 0.181,
+      "velocity": 0.33,
+      "cib_share": 0.105,
+      "n_posts": 57,
+      "n_accounts": 52,
+      "first_seen": "2026-10-18 08:23:00",
+      "sample_texts": [
+        "Baru selesai nonton film bagus akhir pekan ini #timnas",
+        "Kopi pagi ini bikin mood jadi lebih baik #timnas",
+        "Jalanan sepi banget hari ini tumben #timnas"
+      ]
+    }
+  ]
+}
