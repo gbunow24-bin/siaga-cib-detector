@@ -1,6 +1,9 @@
 # SIAGA 🛡️
 **Sistem Intelijen Analisis Gerakan siber-sosial Anomali**
 
+> 🔗 **Demo live (coba tanpa instalasi):** https://siaga-laporan.netlify.app
+> — klik **▶ Jalankan Analisis** untuk melihat deteksi berjalan langsung.
+
 Mesin deteksi *Coordinated Inauthentic Behavior* (CIB) berbahasa Indonesia untuk
 kategori **Siber Sosial / Cognitive Domain** — Kartika Cyber Hackathon 2026
 (PUSSIBERAD × CODEPOLITAN).
@@ -16,12 +19,12 @@ sekadar otomatisasi.
 
 ```
 CSV post ─► features ─► coordination ─► earlywarning ─► laporan
-(akun,     (normalisasi  (graf 3 saluran   (tagar          (HTML/JSON
+(akun,     (normalisasi  (jaringan 3 saluran   (tagar          (HTML/JSON
  waktu,     teks ID,      bukti, deteksi    mencurigakan,    + watchlist
  teks)      ember waktu)  komunitas, skor)  skor risiko)     + dashboard)
 ```
 
-**Tiga saluran bukti** yang difusikan menjadi satu graf koordinasi:
+**Tiga saluran bukti** yang difusikan menjadi satu jaringan koordinasi:
 co-posting sinkron (TF-IDF karakter *n*-gram, tahan sisipan kata/typo),
 co-hashtag (dibobot kelangkaan/idf), dan co-URL. Klaster padat ditemukan lewat
 deteksi komunitas, lalu diberi **Coordination Score** transparan beserta buktinya:
@@ -108,7 +111,7 @@ siaga/
 ├── out/                     # contoh keluaran (report.html / .json / watchlist.csv)
 └── siaga/                   # paket inti
     ├── features.py          # normalisasi Bahasa Indonesia + fitur jejak
-    ├── coordination.py      # ⭐ inti: graf koordinasi + skor klaster
+    ├── coordination.py      # ⭐ inti: jaringan koordinasi + skor klaster
     ├── earlywarning.py      # deteksi dini tagar/narasi menanjak
     ├── robustness.py        # logika uji penyamaran (dipakai dashboard & evaluasi)
     └── watchlist.py         # susun & ekspor daftar akun dicurigai
