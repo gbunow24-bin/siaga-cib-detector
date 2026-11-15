@@ -9,7 +9,7 @@ Dokumen ini menegaskan keaslian karya **SIAGA** untuk **Kartika Cyber Hackathon 
   `evaluate_robustness.py`, `api.py`, `dashboard.py`, `collect_youtube.py`,
   `connect_data.py`) dan **dokumentasi** disusun sendiri oleh tim dari nol.
 - Yang bersifat orisinal adalah **metode & arsitektur**: fusi tiga saluran bukti
-  (co-posting sinkron, co-hashtag ber-idf, co-URL) menjadi satu graf koordinasi,
+  (co-posting sinkron, co-hashtag ber-idf, co-URL) menjadi satu jaringan koordinasi,
   deteksi komunitas, **Coordination Score** yang transparan, normalisasi
   Bahasa Indonesia tahan-penyamaran (TF-IDF karakter *n*-gram), deteksi
   **multi-skala waktu** anti-evasion, dan modul **peringatan dini**.
@@ -20,7 +20,7 @@ Dokumen ini menegaskan keaslian karya **SIAGA** untuk **Kartika Cyber Hackathon 
 |---|---|---|
 | pandas, numpy | BSD | manipulasi data |
 | scikit-learn | BSD | TF-IDF & cosine similarity |
-| networkx | BSD | graf koordinasi + deteksi komunitas |
+| networkx | BSD | jaringan koordinasi + deteksi komunitas |
 | streamlit, plotly | Apache-2.0 / MIT | dashboard (opsional) |
 | fastapi, uvicorn | MIT / BSD | REST API (opsional) |
 | certifi | MPL-2.0 | sertifikat SSL untuk collector (opsional) |
